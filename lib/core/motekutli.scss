@@ -1,0 +1,77 @@
+/* Motekutli CSS - A Responsive CSS Column System */
+@import "normalize";
+@import "../theme/variables";
+@import "../theme/theme";
+@import "../modules/buttons";
+@import "../modules/links";
+@import "../modules/carousel";
+
+@function columns($columns,$total-columns){
+  @return percentage($columns/$total-columns)
+}
+//xl 12 Columns in PC
+@for $i from 1 through 12 {
+  .col-xl-#{$i}{
+    @media screen and (min-width:$width-pc) and (max-width:$width-4k){
+      width: columns($i,12);
+    }
+  }
+}
+//l  10 Columns in PC
+@for $i from 1 through 10 {
+  .col-l-#{$i}{
+    @media screen and (min-width:$width-pc) and (max-width:$width-4k){
+      width: columns($i,10);
+    }
+  }
+}
+//sl 9 Columns in PC
+@for $i from 1 through 9 {
+  .col-sl-#{$i}{
+    @media screen and (min-width:$width-pc) and (max-width:$width-4k){
+      width: columns($i,9);
+    }
+  }
+}
+
+//xm 8 Columns in Tablet
+@for $i from 1 through 8 {
+  .col-xm-#{$i}{
+    @media screen and (min-width:$width-tablet) and (max-width:$width-pc){
+      width: columns($i,8);
+    }
+  }
+}
+//m  6 Columns in Tablet
+@for $i from 1 through 6 {
+  .col-m-#{$i}{
+    @media screen and (min-width:$width-tablet) and (max-width:$width-pc){
+      width: columns($i,6);
+    }
+  }
+}
+//sm 4 Columns in Tablet
+@for $i from 1 through 4 {
+  .col-sm-#{$i}{
+    @media screen and (min-width:$width-tablet) and (max-width:$width-pc){
+      width: columns($i,4);
+    }
+  }
+}
+
+//s  3 Columns in Mobile
+@for $i from 1 through 3 {
+  .col-s-#{$i}{
+    @media screen and (min-width:$width-mobile) and (max-width:$width-tablet){
+      width: columns($i,3);
+    }
+  }
+}
+//xs 2 Columns in Mobile
+@for $i from 1 through 2 {
+  .col-xs-#{$i}{
+    @media screen and (min-width:$width-mobile) and (max-width:$width-tablet){
+      width: columns($i,2);
+    }
+  }
+}

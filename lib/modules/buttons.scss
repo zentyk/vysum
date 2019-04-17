@@ -1,0 +1,16 @@
+.button{
+  display: flex;
+  background:$bg-gradient-blue;
+  flex-direction: column;
+  border-radius: 0.1em;
+  justify-items: center;
+  align-items: center;
+  height: 1.5em;
+  border: none;
+  a {
+    width: auto;
+    text-decoration: none;
+    color:$btn-text;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
