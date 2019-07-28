@@ -4,7 +4,7 @@ node_js:
 # blocklist
 branches:
   except:
-    - master
-  only:
     - dev
+  only:
+    - master
     - stable
