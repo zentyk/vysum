@@ -1,7 +1,7 @@
 {
   "name": "vysum",
   "version": "1.0.1",
-  "description": "",
+  "description": "A CSS Responsive Framework",
   "main": "index.js",
   "scripts": {
     "pack": "webpack",
