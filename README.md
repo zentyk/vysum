@@ -1,5 +1,4 @@
 # Vysum
-
 Vysum, A Customizable CSS Library, Responsive.
 
 ![npm](https://img.shields.io/npm/v/vysum)
@@ -9,5 +8,14 @@ Vysum, A Customizable CSS Library, Responsive.
 ![GitHub followers](https://img.shields.io/github/followers/zentyk?style=social)
 
 # About
+A CSS Lbrary for responsive sites compatible with Vue.
 
-A CSS Lbrary for responsive sites compatible with Vue
+# Installation
+Run `npm i vysum`
+
+To Package your assets Run `npm run pack`
+
+#Documentation
+
+[Vysum Documentation](../blob/master/LICENSE)
+
