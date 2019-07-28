@@ -15,7 +15,7 @@ Run `npm i vysum`
 
 To Package your assets Run `npm run pack`
 
-#Documentation
+# Documentation
 
 [Vysum Documentation](../blob/master/LICENSE)
 

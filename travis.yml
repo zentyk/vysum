@@ -4,16 +4,16 @@ node_js:
 cache: npm
 before_install:
 install:
-  - npm ci
-  - npm i -g webpack
 before_script:
 script:
-  - npm test
-  - npm run build
 after_success:
 after_failure:
 after_script:
 before_deploy:
 deploy:
-  - npm publish
+  provider: npm
+    email: "arturo_gdev689x@outlook.com"
+    api_key: "d8a7e2b7-5c28-4617-8c49-4bff9aeb6d56"
+    on:
+      branch: master
 after_deploy:
