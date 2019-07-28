@@ -1,0 +1,19 @@
+languaje: node_js
+node_js:
+- 11.6.0
+cache: npm
+before_install:
+install:
+  - npm ci
+  - npm i -g webpack
+before_script:
+script:
+  - npm test
+  - npm run build
+after_success:
+after_failure:
+after_script:
+before_deploy:
+deploy:
+  - npm publish
+after_deploy:

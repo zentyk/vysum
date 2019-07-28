@@ -1,5 +1,6 @@
 # Vysum
-Visum CSS , a css customizable, progressive, incrementally-adoptable CSS Library to Build Websites.
+
+Vysum, A Customizable CSS Library, Responsive.
 
 Github:
 https://github.com/zentyk/vysum

@@ -1,12 +1,20 @@
 {
   "name": "vysum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "pack": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["responsive","vue","web","design","ux","framework"],
+  "author": "Zentyk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zentyk/vysum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zentyk/vysum/issues"
+  },
+  "license": "MIT"
 }
