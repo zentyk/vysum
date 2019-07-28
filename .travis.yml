@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - "7"
+  - "10"
+# blocklist
+branches:
+  except:
+    - master
+  only:
+    - dev
+    - stable
