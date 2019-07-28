@@ -1,6 +1,6 @@
 languaje: node_js
 node_js:
-- "10.15.3"
+  - "10.15.3"
 before_install:
 install:
 before_script:
@@ -10,4 +10,3 @@ after_failure:
 after_script:
 before_deploy:
 deploy:
-after_deploy:
