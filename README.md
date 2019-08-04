@@ -18,5 +18,4 @@ To Package your assets Run `npm run pack`
 
 # Documentation
 
-[Vysum Documentation](../blob/master/LICENSE)
-
+[Vysum Documentation](https://github.com/zentyk/vysum/wiki)
