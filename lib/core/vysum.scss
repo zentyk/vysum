@@ -1,10 +1,7 @@
 /* Motekutli CSS - A Responsive CSS Column System */
 @import "normalize";
-@import "variables";
-@import "../theme/theme";
-@import "../components/buttons";
-@import "../components/links";
-@import "../components/carousel";
+@import "../variables";
+@import "../theme";
 
 @function columns($columns,$total-columns){
   @return percentage($columns/$total-columns)
