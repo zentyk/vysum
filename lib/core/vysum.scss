@@ -2,9 +2,6 @@
 @import "normalize";
 @import "../variables";
 @import "../theme";
-@import "../modules/buttons";
-@import "../modules/links";
-@import "../modules/carousel";
 
 @function columns($columns,$total-columns){
   @return percentage($columns/$total-columns)
