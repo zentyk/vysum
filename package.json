@@ -1,0 +1,19 @@
+{
+  "name": "vysum",
+  "version": "1.0.0",
+  "description": "Vysum, A Customizable CSS Library, Responsive.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zentyk/vysum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zentyk/vysum/issues"
+  },
+  "homepage": "https://github.com/zentyk/vysum#readme"
+}
