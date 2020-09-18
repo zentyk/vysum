@@ -1,16 +1,23 @@
 .button{
   display: flex;
-  background:$bg-gradient-blue;
   flex-direction: column;
   border-radius: 0.1em;
   justify-items: center;
   align-items: center;
   height: 1.5em;
-  border: none;
+  border: solid;
   a {
     width: auto;
     text-decoration: none;
     color:$btn-text;
     font-family: 'Montserrat', sans-serif;
   }
+}
+
+.button-blue{
+  background:$bg-gradient-blue;
+}
+
+.button-orange{
+  background:red;
 }
