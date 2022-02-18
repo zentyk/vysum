@@ -1,11 +1,11 @@
 version: "3"
 
-services:
-  fm1:
-    container_name: client
-    image: nginx:1.14.2-alpine
-    restart: always
-    ports:
+services :
+  vysum :
+    container_name : client
+    image : nginx:1.14.2-alpine
+    restart : always
+    ports :
       - "80:80"
-    volumes:
-      - ./01_qr_component/dist:/usr/share/nginx/html:ro
+    volumes :
+      - ./dist:/usr/share/nginx/html:ro

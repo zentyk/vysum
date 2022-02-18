@@ -2,15 +2,16 @@
 @import "../variables";
 @import "../theme";
 
-
 @function columns($columns,$total-columns){
-  @return percentage($columns/$total-columns)
+  //@return percentage($columns/$total-columns)
+  //@return calc($columns/$total-columns)+"%";
+  //calculate percentage of columns
+  @return percentage($columns/$total-columns);
 }
-
 //xl 12 Columns in PC
 @for $i from 1 through 12 {
   .col-xl-#{$i}{
-    @media screen and (min-width:$width-pc) and (max-width:$width-4k){
+    @media screen and (min-width:$width-2k) and (max-width:$width-4k){
       width: columns($i,12);
     }
   }
@@ -18,7 +19,7 @@
 //l  10 Columns in PC
 @for $i from 1 through 10 {
   .col-l-#{$i}{
-    @media screen and (min-width:$width-pc) and (max-width:$width-4k){
+    @media screen and (min-width:$width-1k) and (max-width:$width-2k) {
       width: columns($i,10);
     }
   }
@@ -26,7 +27,7 @@
 //sl 9 Columns in PC
 @for $i from 1 through 9 {
   .col-sl-#{$i}{
-    @media screen and (min-width:$width-pc) and (max-width:$width-4k){
+    @media screen and (min-width:$width-pc) and (max-width:$width-1k){
       width: columns($i,9);
     }
   }
@@ -35,7 +36,7 @@
 //xm 8 Columns in Tablet
 @for $i from 1 through 8 {
   .col-xm-#{$i}{
-    @media screen and (min-width:$width-tablet) and (max-width:$width-pc){
+    @media screen and (min-width:$width-mobile-l) and (max-width:$width-pc){
       width: columns($i,8);
     }
   }
@@ -43,7 +44,7 @@
 //m  6 Columns in Tablet
 @for $i from 1 through 6 {
   .col-m-#{$i}{
-    @media screen and (min-width:$width-tablet) and (max-width:$width-pc){
+    @media screen and (min-width:$width-mobile-m) and (max-width:$width-mobile-l){
       width: columns($i,6);
     }
   }
@@ -51,7 +52,7 @@
 //sm 4 Columns in Tablet
 @for $i from 1 through 4 {
   .col-sm-#{$i}{
-    @media screen and (min-width:$width-tablet) and (max-width:$width-pc){
+    @media screen and (min-width:$width-mobile-s) and (max-width:$width-mobile-m){
       width: columns($i,4);
     }
   }
@@ -60,16 +61,8 @@
 //s  3 Columns in Mobile
 @for $i from 1 through 3 {
   .col-s-#{$i}{
-    @media screen and (min-width:$width-mobile) and (max-width:$width-tablet){
+    @media screen and (min-width:$width-min) and (max-width:$width-mobile-s){
       width: columns($i,3);
-    }
-  }
-}
-//xs 2 Columns in Mobile
-@for $i from 1 through 2 {
-  .col-xs-#{$i}{
-    @media screen and (min-width:$width-mobile) and (max-width:$width-tablet){
-      width: columns($i,2);
     }
   }
 }
