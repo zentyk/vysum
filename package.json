@@ -4,7 +4,8 @@
   "description": "Vysum, A Customizable CSS Library, Responsive.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node esbuild.js",
+    "sass" : "sass --watch src/sass/app.scss:dist/app.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/zentyk/vysum/issues"
   },
-  "homepage": "https://github.com/zentyk/vysum#readme"
+  "homepage": "https://github.com/zentyk/vysum#readme",
+  "devDependencies": {
+    "esbuild": "^0.14.20",
+    "sass": "^1.49.7"
+  }
 }
