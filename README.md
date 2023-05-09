@@ -16,7 +16,7 @@ npm install vysum
 
 ## CDN
 ```html
-<link rel="stylesheet" href="https://unpkg.com/vysum/dist/vysum.min.css">
+<link rel="stylesheet" href="https://unpkg.com/vysum/dist/vysum.css">
 ```
 
 # Usage
@@ -25,7 +25,7 @@ npm install vysum
 ```html
 <div class="container">
     <div class="row">
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
             <p>Content</p>
         </div>
     </div>

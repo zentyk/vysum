@@ -1,6 +1,6 @@
 {
   "name": "vysum",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Vysum - Quick and easy responsive design",
   "main": "./src/main.scss",
   "browser" : "./dist/vysum.css",
