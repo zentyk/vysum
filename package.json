@@ -1,18 +1,18 @@
 {
   "name": "vysum",
-  "version": "1.0.0",
-  "description": "Vysum, A Customizable CSS Library, Responsive.",
+  "version": "0.0.1",
+  "description": "Vysum - Quick and easy responsive design",
   "main": "index.js",
   "scripts": {
-    "build": "node esbuild.js",
-    "sass" : "sass --watch src/sass/app.scss:dist/app.css"
+    "build-prod": "node esbuild.js",
+    "build-dev": "node esbuild.js --dev"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zentyk/vysum.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "zentyk",
+  "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/zentyk/vysum/issues"
   },

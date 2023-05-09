@@ -1,16 +1,14 @@
-require('esbuild').build({
-    entryPoints : ['./src/index.ts'],
-    bundle : true,
-    sourcemap : true,
-    target : 'es2015',
-    minify : true,
-    outfile : './dist/frontend.js'
-});
-
+const fs = require('fs');
 const sass = require('sass');
 
-const result = sass.compile('./src/sass/app.scss',{
+sass.compileAsync('./src/app.scss',{
+    sourceMap:false,
     outputStyle : 'compressed',
-    sourceMap : true,
-    outFile : './dist/frontend.css'
-});
+})
+    .then((result)=>{
+        fs.writeFileSync('./dist/vysum.css',result.css);
+    })
+    .catch((err)=>{
+        console.log(err);
+        process.exit(1);
+    });

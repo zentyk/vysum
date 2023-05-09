@@ -1,16 +1,10 @@
 # Vysum
-Vysum, A Customizable CSS Library, Responsive.
+Vysum - Quick and easy responsive design.
 
 ![npm](https://img.shields.io/npm/v/vysum)
 ![npm](https://img.shields.io/npm/dt/vysum)
 ![alt text](https://img.shields.io/github/license/zentyk/vysum "License")
 
 # About
-A CSS Lbrary for responsive sites compatible with Vue.
-
-# Installation
-Download the repo like a template or only download the [vysum.scss](https://github.com/zentyk/vysum/blob/master/lib/core/vysum.scss) file and transpile it with a SASS Transpiler.
-
-
-# Documentation
-[Vysum Documentation](https://github.com/zentyk/vysum/wiki)
+Vysum is a collection of CSS classes for web responsive design without the need of media queries. 
+It is based on the [BEM](http://getbem.com/) methodology and it is written in SASS.

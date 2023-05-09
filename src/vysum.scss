@@ -1,13 +1,9 @@
-/* Motekutli CSS - A Responsive CSS Column System */
-@import "../variables";
-@import "../theme";
+@import "./variables";
 
-@function columns($columns,$total-columns){
-  //@return percentage($columns/$total-columns)
-  //@return calc($columns/$total-columns)+"%";
-  //calculate percentage of columns
-  @return percentage($columns/$total-columns);
+@function columns($columns,$total-columns) {
+  @return calc($columns/$total-columns)+"%";
 }
+
 //xl 12 Columns in PC
 @for $i from 1 through 12 {
   .col-xl-#{$i}{
@@ -16,6 +12,7 @@
     }
   }
 }
+
 //l  10 Columns in PC
 @for $i from 1 through 10 {
   .col-l-#{$i}{
@@ -24,6 +21,7 @@
     }
   }
 }
+
 //sl 9 Columns in PC
 @for $i from 1 through 9 {
   .col-sl-#{$i}{
@@ -41,6 +39,7 @@
     }
   }
 }
+
 //m  6 Columns in Tablet
 @for $i from 1 through 6 {
   .col-m-#{$i}{
@@ -49,6 +48,7 @@
     }
   }
 }
+
 //sm 4 Columns in Tablet
 @for $i from 1 through 4 {
   .col-sm-#{$i}{
