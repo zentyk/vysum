@@ -21,11 +21,6 @@ npm install vysum
 
 # Usage
 
-## NPM
-```scss
-@include vysum();
-```
-
 ## CDN
 ```html
 <div class="container">
