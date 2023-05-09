@@ -2,23 +2,36 @@
   "name": "vysum",
   "version": "0.0.1",
   "description": "Vysum - Quick and easy responsive design",
-  "main": "index.js",
+  "main": "./src/main.scss",
+  "browser" : "./dist/vysum.css",
   "scripts": {
-    "build-prod": "node esbuild.js",
-    "build-dev": "node esbuild.js --dev"
+    "build-prod": "node scripts/build-lib.js",
+    "build-dev": "node scripts/build-lib.js --dev"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zentyk/vysum.git"
   },
+  "keywords": [
+    "css",
+    "sass",
+    "scss",
+    "responsive",
+    "design",
+    "framework",
+    "library",
+    "vysum"
+  ],
   "author": "zentyk",
   "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/zentyk/vysum/issues"
   },
   "homepage": "https://github.com/zentyk/vysum#readme",
-  "devDependencies": {
-    "esbuild": "^0.14.20",
+  "dependencies": {
     "sass": "^1.49.7"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.20"
   }
 }
