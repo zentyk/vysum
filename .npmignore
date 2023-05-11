@@ -1,5 +1,5 @@
 .gitignore
-esbuild.js
-samples/
 docker-compose.yml
+samples/
+scripts/
 .idea/

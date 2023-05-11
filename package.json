@@ -1,6 +1,6 @@
 {
   "name": "vysum",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "Vysum - Quick and easy responsive design",
   "main": "./src/main.scss",
   "browser" : "./dist/vysum.css",
@@ -28,10 +28,8 @@
     "url": "https://github.com/zentyk/vysum/issues"
   },
   "homepage": "https://github.com/zentyk/vysum#readme",
-  "dependencies": {
-    "sass": "^1.49.7"
-  },
   "devDependencies": {
+    "sass": "^1.49.7",
     "esbuild": "^0.14.20"
   }
 }
