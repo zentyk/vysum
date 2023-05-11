@@ -42,3 +42,6 @@ This project is licensed under the WTFPL License - see the [LICENSE.md](LICENSE.
 
 # Contributing
 if you want to contribute to this project, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information.
+
+# Authors
+Made with ❤️ in Cuautitlán Izcalli, México.
